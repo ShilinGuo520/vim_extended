@@ -10,6 +10,9 @@
 
 5.cat vimrc >> ~/.vimrc
 
+6.cp mark.vim ~/.vim/plugin/mark.vim
+
+
 # cscope used:
 
 -------------------------------------------------------------------
