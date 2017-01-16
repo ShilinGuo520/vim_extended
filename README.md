@@ -1,6 +1,19 @@
 # vim_extended
 
-vimrc include cscope and taglist
+
+sudo apt-get install vim vim-scripts vim-doc ctags cscope
+
+
+# cscope used:
+
+cscope -Rbq cscope.out
+--------------------------------------------------------------------
+
+find  .  -name "*.h" -o -name "*.cpp" -o -name "*.c" > cscope.file
+
+cscope -bqk -i cscope.file
+
+--------------------------------------------------------------------
 
 
 Reference: 
