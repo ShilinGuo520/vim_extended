@@ -31,3 +31,12 @@ let Tlist_Show_One_File=0
 let Tlist_Exit_OnlyWindow=1
 let Tlist_Use_Right_Window=1
 let Tlist_File_Fold_Auto_Close=1
+
+"set cursorcolumn
+set cursorline
+"highlight Cursorcolumn cterm=NONE ctermbg=green ctermfg=black guibg=NONE guifg=NONE
+highlight CursorLine   cterm=NONE ctermbg=white ctermfg=black guibg=NONE guifg=NONE
+
+au InsertLeave * hi Cursor guibg=red
+au InsertEnter * hi Cursor guibg=green
+
