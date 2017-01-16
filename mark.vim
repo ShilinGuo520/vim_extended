@@ -130,6 +130,9 @@ vnoremap <silent> <Plug>MarkRegex <c-\><c-n>:call
 nnoremap <silent> <Plug>MarkClear :call
 	\ <sid>DoMark(<sid>CurrentMark())<cr>
 
+" Add F3 call MarkSet,by solin
+nnoremap <F3> :call <sid>MarkCurrentWord()<cr>
+
 " Here is a sumerization of the following keys' behaviors:
 " 
 " First of all, \#, \? and # behave just like \*, \/ and *, respectively,
