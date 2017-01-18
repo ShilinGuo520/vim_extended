@@ -4,13 +4,19 @@
 
 2.sudo apt-get install vim vim-scripts vim-doc ctags cscope
 
+3.mkdir -p ~/.vim/{plugin,doc}
+
 3.cp taglist_45/doc/taglist.txt ~/.vim/doc/
 
 4.cp taglist_45/plugin/taglist.vim ~/.vim/plugin/
 
-5.cat vimrc >> ~/.vimrc
+5.cp ./nerdtree/plugin/NERD_tree.vim ~/.vim/plugin/
 
-6.cp mark.vim ~/.vim/plugin/mark.vim
+6.cp ./nerdtree/doc/NERD_tree.txt ~/.vim/doc/
+
+7.cat vimrc >> ~/.vimrc
+
+8.cp mark.vim ~/.vim/plugin/mark.vim
 
 
 # cscope used:
@@ -27,6 +33,13 @@ cscope -bqk -i cscope.file
 
 --------------------------------------------------------------------
 
+# NERDTree used:
+
+-------------------------------------------------------------
+
+:NERDTree
+
+-------------------------------------------------------------
 
 Reference: 
 

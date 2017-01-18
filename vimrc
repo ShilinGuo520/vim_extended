@@ -40,3 +40,6 @@ highlight CursorLine   cterm=NONE ctermbg=white ctermfg=black guibg=NONE guifg=N
 au InsertLeave * hi Cursor guibg=red
 au InsertEnter * hi Cursor guibg=green
 
+"Set NERDTree map to F10
+map <F10> :NERDTreeToggle<CR>
+
